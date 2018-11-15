@@ -1,0 +1,18 @@
+C:/Users/Georgi-PC/Documents/Visual Studio 2017/Projects/ChushkaToAsp/Chushka.Models/bin/Debug/netcoreapp2.1/Chushka.Models.deps.json
+C:/Users/Georgi-PC/Documents/Visual Studio 2017/Projects/ChushkaToAsp/Chushka.Models/bin/Debug/netcoreapp2.1/Chushka.Models.dll
+C:/Users/Georgi-PC/Documents/Visual Studio 2017/Projects/ChushkaToAsp/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.csproj.CoreCompileInputs.cache
+C:/Users/Georgi-PC/Documents/Visual Studio 2017/Projects/ChushkaToAsp/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.AssemblyInfoInputs.cache
+C:/Users/Georgi-PC/Documents/Visual Studio 2017/Projects/ChushkaToAsp/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.AssemblyInfo.cs
+C:/Users/Georgi-PC/Documents/Visual Studio 2017/Projects/ChushkaToAsp/Chushka.Models/bin/Debug/netcoreapp2.1/Chushka.Models.pdb
+C:/Users/Georgi-PC/Documents/Visual Studio 2017/Projects/ChushkaToAsp/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.dll
+C:/Users/Georgi-PC/Documents/Visual Studio 2017/Projects/ChushkaToAsp/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.pdb
+C:/Users/Georgi-PC/Documents/Visual Studio 2017/Projects/ChushkaToAsp/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.csprojAssemblyReference.cache
+/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/02. Views And Layouts/Chushka.Models/bin/Debug/netcoreapp2.1/Chushka.Models.deps.json
+/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/02. Views And Layouts/Chushka.Models/bin/Debug/netcoreapp2.1/Chushka.Models.dll
+/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/02. Views And Layouts/Chushka.Models/bin/Debug/netcoreapp2.1/Chushka.Models.pdb
+/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/02. Views And Layouts/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.csprojAssemblyReference.cache
+/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/02. Views And Layouts/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.csproj.CoreCompileInputs.cache
+/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/02. Views And Layouts/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.AssemblyInfoInputs.cache
+/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/02. Views And Layouts/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.AssemblyInfo.cs
+/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/02. Views And Layouts/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.dll
+/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/02. Views And Layouts/Chushka.Models/obj/Debug/netcoreapp2.1/Chushka.Models.pdb

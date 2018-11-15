@@ -1,0 +1,35 @@
+﻿@using Chushka.Web.ViewModels.Products;
+@model AllProductsViewModel
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <main>
+        <div class="jumbotron mt-3 chushka-bg-color">
+            <h1>Welcome to Chushka Universal Web Shop</h1>
+            <hr class="bg-white" />
+            <h3><a class="nav-link-dark" href="/account/login">Login</a> if you have an account.</h3>
+            <h3><a class="nav-link-dark" href="/account/register">Register</a> if you don't.</h3>
+        </div>
+    </main>
+}
+else
+{
+    <main class="mt-3 mb-5">
+        <div class="container-fluid text-center">
+            @if (User.IsInRole("Admin"))
+            {
+                <h2>Greetings, admin!</h2>
+                <h4>Enjoy your work today!</h4>
+            }
+            else
+            {
+                <h2>Greetings, @User.Identity.Name!</h2>
+                <h4>Feel free to view and order any of our products.</h4>
+            }
+        </div>
+        <hr class="hr-2 bg-dark" />
+        <div class="container-fluid product-holder">
+            @await Html.PartialAsync("_IndexPartial", Model);
+        </div>
+    </main>
+}
