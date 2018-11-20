@@ -19,6 +19,28 @@ namespace Eventures.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Eventures.Models.Event", b =>
+                {
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("End");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("Place");
+
+                    b.Property<decimal>("PricePerTicket");
+
+                    b.Property<DateTime>("Start");
+
+                    b.Property<int>("TotalTickets");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Events");
+                });
+
             modelBuilder.Entity("Eventures.Models.EventuresUser", b =>
                 {
                     b.Property<string>("Id")

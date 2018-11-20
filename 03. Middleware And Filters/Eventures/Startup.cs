@@ -1,4 +1,7 @@
-﻿namespace Eventures.Web
+﻿using Eventures.Services;
+using Eventures.Services.Contracts.Account;
+
+namespace Eventures.Web
 {
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
@@ -32,22 +35,20 @@
             });
 
             services.AddDbContext<EventuresDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
-
-            services.AddIdentity<EventuresUser, IdentityRole>(
-                    opt =>
-                    {
-                        opt.Password.RequireDigit = false;
-                        opt.Password.RequiredLength = 3;
-                        opt.Password.RequireUppercase = false;
-                        opt.Password.RequiredUniqueChars = 0;
-                        opt.Password.RequireNonAlphanumeric = false;
-
-                        opt.User.RequireUniqueEmail = true;
-                    })
-                .AddDefaultTokenProviders()
-                .AddEntityFrameworkStores<EventuresDbContext>();
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            
+            services.AddTransient<IAccountService, AccountService>();
+            
+            services.Configure<IdentityOptions>(optinons =>
+            {
+                optinons.SignIn.RequireConfirmedEmail = false;
+                optinons.Password.RequiredLength = 3;
+                optinons.Password.RequireLowercase = false;
+                optinons.Password.RequireNonAlphanumeric = false;
+                optinons.Password.RequireLowercase = false;
+                optinons.Password.RequireUppercase = false;
+                optinons.Password.RequiredUniqueChars = 0;
+            });
 
             services.AddIdentity<EventuresUser, IdentityRole>()
                 .AddDefaultUI()
