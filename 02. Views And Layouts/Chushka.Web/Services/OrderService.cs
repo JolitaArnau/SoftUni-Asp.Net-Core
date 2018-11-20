@@ -1,4 +1,6 @@
-﻿namespace Chushka.Web.Services.Contracts
+﻿using Chushka.Web.Services.Contracts;
+
+namespace Chushka.Web.Services
 {
     using System;
     using System.Linq;
