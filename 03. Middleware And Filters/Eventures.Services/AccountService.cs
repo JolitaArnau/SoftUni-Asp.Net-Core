@@ -1,11 +1,11 @@
-using System.Linq;
-using System.Threading.Tasks;
-using Eventures.Models;
-using Eventures.Services.Contracts.Account;
-using Microsoft.AspNetCore.Identity;
-
 namespace Eventures.Services
 {
+    using System.Linq;
+    using System.Threading.Tasks;
+    using Models;
+    using Contracts.Account;
+    using Microsoft.AspNetCore.Identity;
+
     public class AccountService : IAccountService
     {
         private readonly SignInManager<EventuresUser> _signInManager;
@@ -17,13 +17,14 @@ namespace Eventures.Services
             this._userManager = userManager;
         }
 
-        public async Task<bool> Register(string username, string password, string confirmPassword, string email, string firstName, string lastName, string uniqueCitizenNumber)
+        public async Task<bool> Register(string username, string password, string confirmPassword, string email,
+            string firstName, string lastName, string uniqueCitizenNumber)
         {
             if (password != confirmPassword)
             {
                 return false;
             }
-            
+
             var user = new EventuresUser()
             {
                 UserName = username,

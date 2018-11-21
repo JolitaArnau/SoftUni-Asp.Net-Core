@@ -13,7 +13,7 @@
         }
 
         public DbSet<Event> Events { get; set; }
-
+      
     }
     
     public class BloggingContextFactory : IDesignTimeDbContextFactory<EventuresDbContext>

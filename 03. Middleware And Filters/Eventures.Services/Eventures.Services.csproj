@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Eventures.Data\Eventures.Data.csproj" />
       <ProjectReference Include="..\Eventures.Models\Eventures.Models.csproj" />
     </ItemGroup>
 
@@ -22,6 +23,7 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.AspNetCore.Authentication.Abstractions" Version="2.1.1.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.1" />
     </ItemGroup>
 
 </Project>

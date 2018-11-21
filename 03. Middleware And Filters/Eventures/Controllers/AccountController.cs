@@ -1,4 +1,3 @@
-
 namespace Eventures.Web.Controllers
 {
     using ViewModels.Account;

@@ -4,7 +4,7 @@
 }
 
 a {
-    color: #F8F8FF;
+    color: #AFEEEE;
 }
 
 .half-width {
@@ -15,10 +15,6 @@ textarea {
     resize: none;
 }
 
-.chushka-bg-color {
-    background-color: #DC143C;
-    color: #F8F8FF;
-}
 
 .nav-link-dark {
     color: #C0C0C0
@@ -33,8 +29,8 @@ textarea {
 }
 
 .table-hover>tbody>tr:hover {
-    background-color: #DC143C;
-    color: #F8F8FF;
+    background-color: #AFEEEE;
+    color: #ffffff;
 }
 
 footer {
@@ -48,6 +44,6 @@ footer {
     text-align: center;
 }
 
-/*.product {*/
-/*word-wrap: break-word;*/
-/*}*/
+.bg-info {
+    background-color: #AFEEEE!important;
+}

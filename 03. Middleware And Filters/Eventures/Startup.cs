@@ -1,5 +1,6 @@
-﻿using Eventures.Services;
-using Eventures.Services.Contracts.Account;
+﻿using AutoMapper;
+using Eventures.Web.Filters;
+using Microsoft.Extensions.Logging;
 
 namespace Eventures.Web
 {
@@ -11,6 +12,10 @@ namespace Eventures.Web
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
+    using Services;
+    using Services.Contracts.Account;
+    using Services.Contracts.Events;
+    using AutoMapper;
     using Data;
     using Eventures.Models;
     using Middlewares;
@@ -34,11 +39,21 @@ namespace Eventures.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            // db services
+
             services.AddDbContext<EventuresDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            
+
+            services.AddTransient<IEventsService, EventsService>();
             services.AddTransient<IAccountService, AccountService>();
-            
+
+
+            // auto mapper config
+            var mapperConfig = new MapperConfiguration(m => m.AddProfile(new MapperProfile()));
+            var mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
+
+            // identity
             services.Configure<IdentityOptions>(optinons =>
             {
                 optinons.SignIn.RequireConfirmedEmail = false;
@@ -54,12 +69,14 @@ namespace Eventures.Web
                 .AddDefaultUI()
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<EventuresDbContext>();
-
+            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            
+            services.AddScoped<EventsLogFilter>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -70,6 +87,10 @@ namespace Eventures.Web
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+            
+            loggerFactory.AddConsole(this.Configuration.GetSection("Logging"));
+            loggerFactory.AddDebug();
+            loggerFactory.AddFile("Logs/Events.txt");
 
             app.UseSeedRoles();
             app.UseHttpsRedirection();
