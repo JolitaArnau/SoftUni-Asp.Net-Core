@@ -1,0 +1,1023 @@
+2018-11-21T15:17:10.1439650+01:00 0HLIFNG34599E:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-11-21T15:17:11.0242940+01:00 0HLIFNG34599E:00000001 [WRN] No type was specified for the decimal column '"PricePerTicket"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-11-21T15:17:11.1084930+01:00 0HLIFNG34599E:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:11.4249740+01:00 0HLIFNG34599E:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:11.6657040+01:00 0HLIFNG34599E:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-21T15:17:11.6889160+01:00 0HLIFNG34599E:00000001 [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:17:11.6958120+01:00 0HLIFNG34599E:00000001 [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.7695ms. (50a9e262)
+2018-11-21T15:17:15.3001200+01:00 0HLIFNG34599E:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-21T15:17:16.6457220+01:00 0HLIFNG34599E:00000001 [INF] Executed ViewResult - view "Index" executed in 4930.3256ms. (f66409e9)
+2018-11-21T15:17:16.6463100+01:00 0HLIFNG34599E:00000001 [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 4979.3118ms (afa2e885)
+2018-11-21T15:17:16.7457530+01:00 0HLIFNG34599F:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:17:16.7477750+01:00 0HLIFNG34599F:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:16.7857760+01:00 0HLIFNG34599F:00000001 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:16.8155630+01:00 0HLIFNG34599G:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:17:16.8175470+01:00 0HLIFNG34599G:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:16.8237430+01:00 0HLIFNG34599G:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:16.8415820+01:00 0HLIFNG34599G:00000001 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:17:16.8674800+01:00 0HLIFNG34599G:00000001 [INF] Request finished in 51.4338ms 200 text/css (791a596a)
+2018-11-21T15:17:16.8799670+01:00 0HLIFNG34599E:00000001 [INF] Request finished in 6744.8734ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:17:16.8826310+01:00 0HLIFNG34599E:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:17:16.8835210+01:00 0HLIFNG34599E:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:16.8881540+01:00 0HLIFNG34599E:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:16.8896430+01:00 0HLIFNG34599E:00000002 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:17:16.8897840+01:00 0HLIFNG34599E:00000002 [INF] Request finished in 7.1876ms 200 text/css (791a596a)
+2018-11-21T15:17:16.9911370+01:00 0HLIFNG34599F:00000001 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:17:16.9912490+01:00 0HLIFNG34599F:00000001 [INF] Request finished in 247.0836ms 200 text/css (791a596a)
+2018-11-21T15:17:34.1880460+01:00 0HLIFNG34599F:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Logout   (ca22a1cb)
+2018-11-21T15:17:34.1890570+01:00 0HLIFNG34599F:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:34.1958050+01:00 0HLIFNG34599F:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:34.2070030+01:00 0HLIFNG34599F:00000002 [INF] Route matched with "{action = \"Logout\", controller = \"Account\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.AccountController.Logout (Eventures.Web)" (a44c0341)
+2018-11-21T15:17:34.2087650+01:00 0HLIFNG34599F:00000002 [INF] Executing action method "Eventures.Web.Controllers.AccountController.Logout (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:17:34.2418280+01:00 0HLIFNG34599F:00000002 [INF] AuthenticationScheme: "Identity.Application" signed out. (d3f50c8d)
+2018-11-21T15:17:34.2459920+01:00 0HLIFNG34599F:00000002 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2018-11-21T15:17:34.2469650+01:00 0HLIFNG34599F:00000002 [INF] AuthenticationScheme: "Identity.TwoFactorUserId" signed out. (d3f50c8d)
+2018-11-21T15:17:34.2477890+01:00 0HLIFNG34599F:00000002 [INF] Executed action method "Eventures.Web.Controllers.AccountController.Logout (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 38.8497ms. (50a9e262)
+2018-11-21T15:17:34.2499560+01:00 0HLIFNG34599F:00000002 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2018-11-21T15:17:34.2503300+01:00 0HLIFNG34599F:00000002 [INF] Executed action "Eventures.Web.Controllers.AccountController.Logout (Eventures.Web)" in 43.0921ms (afa2e885)
+2018-11-21T15:17:34.2547580+01:00 0HLIFNG34599F:00000002 [INF] Request finished in 66.7571ms 302  (791a596a)
+2018-11-21T15:17:34.2696450+01:00 0HLIFNG34599F:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-11-21T15:17:34.2707660+01:00 0HLIFNG34599F:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:34.2744440+01:00 0HLIFNG34599F:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:34.2751530+01:00 0HLIFNG34599F:00000003 [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-21T15:17:34.2754050+01:00 0HLIFNG34599F:00000003 [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:17:34.2755430+01:00 0HLIFNG34599F:00000003 [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0463ms. (50a9e262)
+2018-11-21T15:17:34.2764330+01:00 0HLIFNG34599F:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-21T15:17:34.2909910+01:00 0HLIFNG34599F:00000003 [INF] Executed ViewResult - view "Index" executed in 15.1734ms. (f66409e9)
+2018-11-21T15:17:34.2911700+01:00 0HLIFNG34599F:00000003 [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 15.932ms (afa2e885)
+2018-11-21T15:17:34.2915410+01:00 0HLIFNG34599F:00000003 [INF] Request finished in 21.9913ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:17:34.3764780+01:00 0HLIFNG34599F:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:17:34.3776580+01:00 0HLIFNG34599F:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:34.3784000+01:00 0HLIFNG34599E:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:17:34.3789890+01:00 0HLIFNG34599E:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:34.3807310+01:00 0HLIFNG34599G:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:17:34.3813440+01:00 0HLIFNG34599G:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:34.3901260+01:00 0HLIFNG34599F:00000004 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:34.3921030+01:00 0HLIFNG34599F:00000004 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:17:34.3922290+01:00 0HLIFNG34599F:00000004 [INF] Request finished in 16.0017ms 200 text/css (791a596a)
+2018-11-21T15:17:34.4050730+01:00 0HLIFNG34599G:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:34.4056980+01:00 0HLIFNG34599G:00000002 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:17:34.4057920+01:00 0HLIFNG34599G:00000002 [INF] Request finished in 25.1857ms 200 text/css (791a596a)
+2018-11-21T15:17:34.5997800+01:00 0HLIFNG34599E:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:34.6038210+01:00 0HLIFNG34599E:00000003 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:17:34.6039610+01:00 0HLIFNG34599E:00000003 [INF] Request finished in 225.6098ms 200 text/css (791a596a)
+2018-11-21T15:17:35.6906100+01:00 0HLIFNG34599E:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Account/Login   (ca22a1cb)
+2018-11-21T15:17:35.6912290+01:00 0HLIFNG34599E:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:35.7028020+01:00 0HLIFNG34599E:00000004 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:35.7162290+01:00 0HLIFNG34599E:00000004 [INF] Route matched with "{action = \"Login\", controller = \"Account\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" (a44c0341)
+2018-11-21T15:17:35.7164620+01:00 0HLIFNG34599E:00000004 [INF] Executing action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:17:35.7167890+01:00 0HLIFNG34599E:00000004 [INF] Executed action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2416ms. (50a9e262)
+2018-11-21T15:17:36.3120480+01:00 0HLIFNG34599E:00000004 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2018-11-21T15:17:36.4910390+01:00 0HLIFNG34599E:00000004 [INF] Executed ViewResult - view "Login" executed in 769.3ms. (f66409e9)
+2018-11-21T15:17:36.4912570+01:00 0HLIFNG34599E:00000004 [INF] Executed action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" in 774.9025ms (afa2e885)
+2018-11-21T15:17:36.4916390+01:00 0HLIFNG34599E:00000004 [INF] Request finished in 801.0294ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:17:36.5401550+01:00 0HLIFNG34599E:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:17:36.5402150+01:00 0HLIFNG34599G:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:17:36.5404630+01:00 0HLIFNG34599F:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:17:36.5406870+01:00 0HLIFNG34599G:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:36.5408170+01:00 0HLIFNG34599F:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:36.5420950+01:00 0HLIFNG34599E:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:36.5491220+01:00 0HLIFNG34599G:00000003 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:36.5494880+01:00 0HLIFNG34599F:00000005 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:36.5499180+01:00 0HLIFNG34599F:00000005 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:17:36.5500100+01:00 0HLIFNG34599F:00000005 [INF] Request finished in 9.5537ms 200 text/css (791a596a)
+2018-11-21T15:17:36.5531200+01:00 0HLIFNG34599G:00000003 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:17:36.5532660+01:00 0HLIFNG34599G:00000003 [INF] Request finished in 13.0321ms 200 text/css (791a596a)
+2018-11-21T15:17:36.7516400+01:00 0HLIFNG34599E:00000005 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:36.7522580+01:00 0HLIFNG34599E:00000005 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:17:36.7524270+01:00 0HLIFNG34599E:00000005 [INF] Request finished in 212.235ms 200 text/css (791a596a)
+2018-11-21T15:17:44.7164710+01:00 0HLIFNG34599E:00000006 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Account/Login application/x-www-form-urlencoded 233 (ca22a1cb)
+2018-11-21T15:17:44.7170390+01:00 0HLIFNG34599E:00000006 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:44.7191860+01:00 0HLIFNG34599E:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:44.7431260+01:00 0HLIFNG34599E:00000006 [INF] Route matched with "{action = \"Login\", controller = \"Account\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" (a44c0341)
+2018-11-21T15:17:44.8220750+01:00 0HLIFNG34599E:00000006 [INF] Executing action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" with arguments (["Eventures.Web.ViewModels.Account.LoginViewModel"]) - Validation state: Valid (4e3479ed)
+2018-11-21T15:17:44.9810050+01:00 0HLIFNG34599E:00000006 [INF] Executed DbCommand ("21"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UniqueCitizenNumber], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-11-21T15:17:45.1282150+01:00 0HLIFNG34599E:00000006 [WRN] Invalid password for user "5c455aa8-0155-439f-8669-b9488996f4e0". (c2dce6c7)
+2018-11-21T15:17:45.1289990+01:00 0HLIFNG34599E:00000006 [WRN] User "5c455aa8-0155-439f-8669-b9488996f4e0" failed to provide the correct password. (ec8d2479)
+2018-11-21T15:17:45.1595020+01:00 0HLIFNG34599E:00000006 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UniqueCitizenNumber], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-11-21T15:17:45.2939970+01:00 0HLIFNG34599E:00000006 [INF] Executed DbCommand ("5"ms) [Parameters=["@p17='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p18='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UniqueCitizenNumber] = @p15, [UserName] = @p16
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2018-11-21T15:17:45.3303410+01:00 0HLIFNG34599E:00000006 [INF] Executed action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 508.1004ms. (50a9e262)
+2018-11-21T15:17:45.3304720+01:00 0HLIFNG34599E:00000006 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2018-11-21T15:17:45.3360910+01:00 0HLIFNG34599E:00000006 [INF] Executed ViewResult - view "Login" executed in 5.6336ms. (f66409e9)
+2018-11-21T15:17:45.3362010+01:00 0HLIFNG34599E:00000006 [INF] Executed action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" in 592.915ms (afa2e885)
+2018-11-21T15:17:45.3363300+01:00 0HLIFNG34599E:00000006 [INF] Request finished in 619.9224ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:17:45.4242950+01:00 0HLIFNG34599G:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:17:45.4252130+01:00 0HLIFNG34599G:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:45.4242950+01:00 0HLIFNG34599E:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:17:45.4260120+01:00 0HLIFNG34599F:00000006 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:17:45.4262710+01:00 0HLIFNG34599E:00000007 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:45.4263610+01:00 0HLIFNG34599F:00000006 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:45.4390030+01:00 0HLIFNG34599E:00000007 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:45.4399690+01:00 0HLIFNG34599F:00000006 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:45.4404150+01:00 0HLIFNG34599E:00000007 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:17:45.4405220+01:00 0HLIFNG34599E:00000007 [INF] Request finished in 16.2542ms 200 text/css (791a596a)
+2018-11-21T15:17:45.4409220+01:00 0HLIFNG34599F:00000006 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:17:45.4411530+01:00 0HLIFNG34599F:00000006 [INF] Request finished in 15.0969ms 200 text/css (791a596a)
+2018-11-21T15:17:45.4439280+01:00 0HLIFNG34599G:00000004 [INF] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:45.4487910+01:00 0HLIFNG34599G:00000004 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:17:45.4489180+01:00 0HLIFNG34599G:00000004 [INF] Request finished in 24.6443ms 200 text/css (791a596a)
+2018-11-21T15:17:48.9276770+01:00 0HLIFNG34599G:00000005 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Account/Login application/x-www-form-urlencoded 229 (ca22a1cb)
+2018-11-21T15:17:48.9282960+01:00 0HLIFNG34599G:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:48.9307070+01:00 0HLIFNG34599G:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:48.9311500+01:00 0HLIFNG34599G:00000005 [INF] Route matched with "{action = \"Login\", controller = \"Account\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" (a44c0341)
+2018-11-21T15:17:48.9330380+01:00 0HLIFNG34599G:00000005 [INF] Executing action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" with arguments (["Eventures.Web.ViewModels.Account.LoginViewModel"]) - Validation state: Valid (4e3479ed)
+2018-11-21T15:17:48.9355030+01:00 0HLIFNG34599G:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UniqueCitizenNumber], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-11-21T15:17:48.9572700+01:00 0HLIFNG34599G:00000005 [WRN] Invalid password for user "5c455aa8-0155-439f-8669-b9488996f4e0". (c2dce6c7)
+2018-11-21T15:17:48.9573630+01:00 0HLIFNG34599G:00000005 [WRN] User "5c455aa8-0155-439f-8669-b9488996f4e0" failed to provide the correct password. (ec8d2479)
+2018-11-21T15:17:48.9633040+01:00 0HLIFNG34599G:00000005 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UniqueCitizenNumber], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-11-21T15:17:48.9727000+01:00 0HLIFNG34599G:00000005 [INF] Executed DbCommand ("3"ms) [Parameters=["@p17='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p18='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UniqueCitizenNumber] = @p15, [UserName] = @p16
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2018-11-21T15:17:48.9844450+01:00 0HLIFNG34599G:00000005 [INF] Executed action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 51.254ms. (50a9e262)
+2018-11-21T15:17:48.9846140+01:00 0HLIFNG34599G:00000005 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2018-11-21T15:17:48.9871010+01:00 0HLIFNG34599G:00000005 [INF] Executed ViewResult - view "Login" executed in 2.5162ms. (f66409e9)
+2018-11-21T15:17:48.9871720+01:00 0HLIFNG34599G:00000005 [INF] Executed action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" in 55.9663ms (afa2e885)
+2018-11-21T15:17:48.9873190+01:00 0HLIFNG34599G:00000005 [INF] Request finished in 59.7203ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:17:49.0465330+01:00 0HLIFNG34599F:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:17:49.0465330+01:00 0HLIFNG34599E:00000008 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:17:49.0471320+01:00 0HLIFNG34599F:00000007 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:49.0477700+01:00 0HLIFNG34599E:00000008 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:49.0484030+01:00 0HLIFNG34599G:00000006 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:17:49.0494200+01:00 0HLIFNG34599G:00000006 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:49.0522310+01:00 0HLIFNG34599E:00000008 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:49.0522510+01:00 0HLIFNG34599F:00000007 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:49.0533980+01:00 0HLIFNG34599E:00000008 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:17:49.0535090+01:00 0HLIFNG34599E:00000008 [INF] Request finished in 6.9991ms 200 text/css (791a596a)
+2018-11-21T15:17:49.0561680+01:00 0HLIFNG34599G:00000006 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:49.0566680+01:00 0HLIFNG34599G:00000006 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:17:49.0567670+01:00 0HLIFNG34599G:00000006 [INF] Request finished in 8.3837ms 200 text/css (791a596a)
+2018-11-21T15:17:49.0569440+01:00 0HLIFNG34599F:00000007 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:17:49.0570380+01:00 0HLIFNG34599F:00000007 [INF] Request finished in 10.5416ms 200 text/css (791a596a)
+2018-11-21T15:17:53.4732110+01:00 0HLIFNG34599F:00000008 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Account/Login application/x-www-form-urlencoded 229 (ca22a1cb)
+2018-11-21T15:17:53.4738040+01:00 0HLIFNG34599F:00000008 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:53.4761670+01:00 0HLIFNG34599F:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:53.4765530+01:00 0HLIFNG34599F:00000008 [INF] Route matched with "{action = \"Login\", controller = \"Account\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" (a44c0341)
+2018-11-21T15:17:53.4768800+01:00 0HLIFNG34599F:00000008 [INF] Executing action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" with arguments (["Eventures.Web.ViewModels.Account.LoginViewModel"]) - Validation state: Valid (4e3479ed)
+2018-11-21T15:17:53.4810500+01:00 0HLIFNG34599F:00000008 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UniqueCitizenNumber], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-11-21T15:17:53.5022030+01:00 0HLIFNG34599F:00000008 [WRN] Invalid password for user "5c455aa8-0155-439f-8669-b9488996f4e0". (c2dce6c7)
+2018-11-21T15:17:53.5024240+01:00 0HLIFNG34599F:00000008 [WRN] User "5c455aa8-0155-439f-8669-b9488996f4e0" failed to provide the correct password. (ec8d2479)
+2018-11-21T15:17:53.5059480+01:00 0HLIFNG34599F:00000008 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UniqueCitizenNumber], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-11-21T15:17:53.5169610+01:00 0HLIFNG34599F:00000008 [INF] Executed DbCommand ("7"ms) [Parameters=["@p17='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p18='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UniqueCitizenNumber] = @p15, [UserName] = @p16
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2018-11-21T15:17:53.5267990+01:00 0HLIFNG34599F:00000008 [INF] Executed action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 49.7851ms. (50a9e262)
+2018-11-21T15:17:53.5269290+01:00 0HLIFNG34599F:00000008 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2018-11-21T15:17:53.5293800+01:00 0HLIFNG34599F:00000008 [INF] Executed ViewResult - view "Login" executed in 2.4472ms. (f66409e9)
+2018-11-21T15:17:53.5295080+01:00 0HLIFNG34599F:00000008 [INF] Executed action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" in 52.8885ms (afa2e885)
+2018-11-21T15:17:53.5297130+01:00 0HLIFNG34599F:00000008 [INF] Request finished in 56.5857ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:17:53.5645950+01:00 0HLIFNG34599F:00000009 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:17:53.5651340+01:00 0HLIFNG34599F:00000009 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:53.5766320+01:00 0HLIFNG34599G:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:17:53.5766580+01:00 0HLIFNG34599F:00000009 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:53.5771810+01:00 0HLIFNG34599G:00000007 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:53.5771790+01:00 0HLIFNG34599F:00000009 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:17:53.5772790+01:00 0HLIFNG34599F:00000009 [INF] Request finished in 12.7165ms 200 text/css (791a596a)
+2018-11-21T15:17:53.5773860+01:00 0HLIFNG34599E:00000009 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:17:53.5779520+01:00 0HLIFNG34599E:00000009 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:17:53.5876630+01:00 0HLIFNG34599E:00000009 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:53.5886970+01:00 0HLIFNG34599E:00000009 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:17:53.5888800+01:00 0HLIFNG34599E:00000009 [INF] Request finished in 11.4904ms 200 text/css (791a596a)
+2018-11-21T15:17:53.5906640+01:00 0HLIFNG34599G:00000007 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:17:53.5944510+01:00 0HLIFNG34599G:00000007 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:17:53.5945610+01:00 0HLIFNG34599G:00000007 [INF] Request finished in 17.948ms 200 text/css (791a596a)
+2018-11-21T15:18:03.8499990+01:00 0HLIFNG34599G:00000008 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Account/Login application/x-www-form-urlencoded 232 (ca22a1cb)
+2018-11-21T15:18:03.8507110+01:00 0HLIFNG34599G:00000008 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:03.8527850+01:00 0HLIFNG34599G:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:03.8531870+01:00 0HLIFNG34599G:00000008 [INF] Route matched with "{action = \"Login\", controller = \"Account\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" (a44c0341)
+2018-11-21T15:18:03.8535640+01:00 0HLIFNG34599G:00000008 [INF] Executing action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" with arguments (["Eventures.Web.ViewModels.Account.LoginViewModel"]) - Validation state: Valid (4e3479ed)
+2018-11-21T15:18:03.8568320+01:00 0HLIFNG34599G:00000008 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UniqueCitizenNumber], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-11-21T15:18:03.8932030+01:00 0HLIFNG34599G:00000008 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UniqueCitizenNumber], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-11-21T15:18:03.9084080+01:00 0HLIFNG34599G:00000008 [INF] Executed DbCommand ("12"ms) [Parameters=["@p17='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p18='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UniqueCitizenNumber] = @p15, [UserName] = @p16
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2018-11-21T15:18:04.0052300+01:00 0HLIFNG34599G:00000008 [INF] Executed DbCommand ("3"ms) [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2018-11-21T15:18:04.0883900+01:00 0HLIFNG34599G:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2018-11-21T15:18:04.1228100+01:00 0HLIFNG34599G:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-21T15:18:04.1527690+01:00 0HLIFNG34599G:00000008 [INF] Executed DbCommand ("3"ms) [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2018-11-21T15:18:04.1650460+01:00 0HLIFNG34599G:00000008 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2018-11-21T15:18:04.1670430+01:00 0HLIFNG34599G:00000008 [INF] Executed action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 313.3535ms. (50a9e262)
+2018-11-21T15:18:04.1673200+01:00 0HLIFNG34599G:00000008 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2018-11-21T15:18:04.1674680+01:00 0HLIFNG34599G:00000008 [INF] Executed action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" in 314.19ms (afa2e885)
+2018-11-21T15:18:04.1676630+01:00 0HLIFNG34599G:00000008 [INF] Request finished in 317.7614ms 302  (791a596a)
+2018-11-21T15:18:04.1751210+01:00 0HLIFNG34599G:00000009 [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-11-21T15:18:04.1758120+01:00 0HLIFNG34599G:00000009 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:04.1784490+01:00 0HLIFNG34599G:00000009 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:04.1790810+01:00 0HLIFNG34599G:00000009 [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-21T15:18:04.1794330+01:00 0HLIFNG34599G:00000009 [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:18:04.1798090+01:00 0HLIFNG34599G:00000009 [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0124ms. (50a9e262)
+2018-11-21T15:18:04.1799260+01:00 0HLIFNG34599G:00000009 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-21T15:18:04.1820650+01:00 0HLIFNG34599G:00000009 [INF] Executed ViewResult - view "Index" executed in 2.1471ms. (f66409e9)
+2018-11-21T15:18:04.1821450+01:00 0HLIFNG34599G:00000009 [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 2.8179ms (afa2e885)
+2018-11-21T15:18:04.1822860+01:00 0HLIFNG34599G:00000009 [INF] Request finished in 7.2496ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:18:04.2363260+01:00 0HLIFNG34599E:0000000A [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:18:04.2363260+01:00 0HLIFNG34599G:0000000A [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:18:04.2363260+01:00 0HLIFNG34599F:0000000A [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:18:04.2368500+01:00 0HLIFNG34599E:0000000A [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:04.2371050+01:00 0HLIFNG34599F:0000000A [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:04.2372860+01:00 0HLIFNG34599G:0000000A [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:04.2446260+01:00 0HLIFNG34599E:0000000A [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:04.2459280+01:00 0HLIFNG34599F:0000000A [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:04.2459270+01:00 0HLIFNG34599G:0000000A [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:04.2464120+01:00 0HLIFNG34599F:0000000A [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:18:04.2464830+01:00 0HLIFNG34599G:0000000A [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:18:04.2465060+01:00 0HLIFNG34599F:0000000A [INF] Request finished in 10.1953ms 200 text/css (791a596a)
+2018-11-21T15:18:04.2465490+01:00 0HLIFNG34599G:0000000A [INF] Request finished in 10.2563ms 200 text/css (791a596a)
+2018-11-21T15:18:04.2480940+01:00 0HLIFNG34599E:0000000A [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:18:04.2482130+01:00 0HLIFNG34599E:0000000A [INF] Request finished in 11.9072ms 200 text/css (791a596a)
+2018-11-21T15:18:07.9338130+01:00 0HLIFNG34599E:0000000B [INF] Request starting HTTP/1.1 GET https://localhost:5001/Events/All   (ca22a1cb)
+2018-11-21T15:18:07.9347890+01:00 0HLIFNG34599E:0000000B [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:07.9392640+01:00 0HLIFNG34599E:0000000B [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:07.9440810+01:00 0HLIFNG34599E:0000000B [INF] Route matched with "{action = \"All\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" (a44c0341)
+2018-11-21T15:18:07.9716810+01:00 0HLIFNG34599E:0000000B [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:18:07.9735850+01:00 0HLIFNG34599E:0000000B [INF] Executed action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" in 29.3881ms (afa2e885)
+2018-11-21T15:18:07.9888200+01:00 0HLIFNG34599E:0000000B [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Eventures.Web.Controllers.EventsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Eventures.Web.Middlewares.SeedRolesMiddleware.InvokeAsync(HttpContext context, IServiceProvider serviceProvider, UserManager`1 userManager, RoleManager`1 roleManager) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Middlewares/SeedRolesMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-11-21T15:18:08.1114760+01:00 0HLIFNG34599E:0000000B [INF] Request finished in 177.6488ms 500 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:18:33.9146540+01:00 0HLIFNG34599E:0000000C [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-11-21T15:18:33.9154230+01:00 0HLIFNG34599E:0000000C [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:33.9205850+01:00 0HLIFNG34599E:0000000C [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:33.9212940+01:00 0HLIFNG34599E:0000000C [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-21T15:18:33.9214100+01:00 0HLIFNG34599E:0000000C [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:18:33.9214730+01:00 0HLIFNG34599E:0000000C [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.009ms. (50a9e262)
+2018-11-21T15:18:33.9216370+01:00 0HLIFNG34599E:0000000C [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-21T15:18:33.9223030+01:00 0HLIFNG34599E:0000000C [INF] Executed ViewResult - view "Index" executed in 0.7018ms. (f66409e9)
+2018-11-21T15:18:33.9223690+01:00 0HLIFNG34599E:0000000C [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 1.0145ms (afa2e885)
+2018-11-21T15:18:33.9224790+01:00 0HLIFNG34599E:0000000C [INF] Request finished in 7.8893ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:18:34.0191900+01:00 0HLIFNG34599E:0000000D [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:18:34.0192280+01:00 0HLIFNG34599F:0000000B [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:18:34.0196880+01:00 0HLIFNG34599F:0000000B [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:34.0197430+01:00 0HLIFNG34599E:0000000D [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:34.0284440+01:00 0HLIFNG34599E:0000000D [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:34.0300270+01:00 0HLIFNG34599E:0000000D [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:18:34.0301930+01:00 0HLIFNG34599E:0000000D [INF] Request finished in 10.9906ms 200 text/css (791a596a)
+2018-11-21T15:18:34.0305010+01:00 0HLIFNG34599G:0000000B [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:18:34.0305100+01:00 0HLIFNG34599F:0000000B [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:34.0310210+01:00 0HLIFNG34599G:0000000B [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:34.0337290+01:00 0HLIFNG34599F:0000000B [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:18:34.0338940+01:00 0HLIFNG34599F:0000000B [INF] Request finished in 14.6544ms 200 text/css (791a596a)
+2018-11-21T15:18:34.0369990+01:00 0HLIFNG34599G:0000000B [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:34.0375220+01:00 0HLIFNG34599G:0000000B [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:18:34.0376230+01:00 0HLIFNG34599G:0000000B [INF] Request finished in 7.1323ms 200 text/css (791a596a)
+2018-11-21T15:18:35.6661430+01:00 0HLIFNG34599F:0000000C [INF] Request starting HTTP/1.1 GET https://localhost:5001/Events/Create   (ca22a1cb)
+2018-11-21T15:18:35.6669140+01:00 0HLIFNG34599F:0000000C [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:18:35.6773020+01:00 0HLIFNG34599F:0000000C [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:18:35.6807860+01:00 0HLIFNG34599F:0000000C [INF] Route matched with "{action = \"Create\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" (a44c0341)
+2018-11-21T15:18:35.6835960+01:00 0HLIFNG34599F:0000000C [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:18:35.6842720+01:00 0HLIFNG34599F:0000000C [INF] Executed action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" in 3.3777ms (afa2e885)
+2018-11-21T15:18:35.6868480+01:00 0HLIFNG34599F:0000000C [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Eventures.Web.Controllers.EventsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Eventures.Web.Middlewares.SeedRolesMiddleware.InvokeAsync(HttpContext context, IServiceProvider serviceProvider, UserManager`1 userManager, RoleManager`1 roleManager) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Middlewares/SeedRolesMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-11-21T15:18:35.7001230+01:00 0HLIFNG34599F:0000000C [INF] Request finished in 34.062ms 500 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:19:57.1222560+01:00 0HLIFNHKSV3SV:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-11-21T15:19:58.1828490+01:00 0HLIFNHKSV3SV:00000001 [WRN] No type was specified for the decimal column '"PricePerTicket"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-11-21T15:19:58.3083370+01:00 0HLIFNHKSV3SV:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:19:58.9638470+01:00 0HLIFNHKSV3SV:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:19:59.5582840+01:00 0HLIFNHKSV3SV:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-21T15:19:59.5964830+01:00 0HLIFNHKSV3SV:00000001 [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:19:59.6095370+01:00 0HLIFNHKSV3SV:00000001 [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.3066ms. (50a9e262)
+2018-11-21T15:20:05.5842400+01:00 0HLIFNHKSV3SV:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-21T15:20:07.3159730+01:00 0HLIFNHKSV3T2:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:20:07.3182420+01:00 0HLIFNHKSV3T2:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:20:07.3297740+01:00 0HLIFNHKSV3T2:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:20:07.3434130+01:00 0HLIFNHKSV3T0:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:20:07.3440910+01:00 0HLIFNHKSV3T0:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:20:07.3557540+01:00 0HLIFNHKSV3T0:00000001 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:20:07.3752480+01:00 0HLIFNHKSV3T1:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:20:07.3759090+01:00 0HLIFNHKSV3T1:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:20:07.3864280+01:00 0HLIFNHKSV3T2:00000001 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:20:07.3967430+01:00 0HLIFNHKSV3T1:00000001 [INF] Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:20:07.3979230+01:00 0HLIFNHKSV3T1:00000001 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:20:07.4074980+01:00 0HLIFNHKSV3T1:00000001 [INF] Request finished in 31.5887ms 200 text/css (791a596a)
+2018-11-21T15:20:07.4228970+01:00 0HLIFNHKSV3T2:00000001 [INF] Request finished in 94.1048ms 200 text/css (791a596a)
+2018-11-21T15:20:07.4672430+01:00 0HLIFNHKSV3T0:00000001 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:20:07.4674230+01:00 0HLIFNHKSV3T0:00000001 [INF] Request finished in 124.0382ms 200 text/css (791a596a)
+2018-11-21T15:20:07.4971710+01:00 0HLIFNHKSV3SV:00000001 [INF] Executed ViewResult - view "Index" executed in 7595.2891ms. (f66409e9)
+2018-11-21T15:20:07.4984890+01:00 0HLIFNHKSV3SV:00000001 [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 7938.5569ms (afa2e885)
+2018-11-21T15:20:07.5240020+01:00 0HLIFNHKSV3SV:00000001 [INF] Request finished in 10410.4193ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:20:11.8551480+01:00 0HLIFNHKSV3SV:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Events/Create   (ca22a1cb)
+2018-11-21T15:20:11.8558030+01:00 0HLIFNHKSV3SV:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:20:11.8676200+01:00 0HLIFNHKSV3SV:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:20:11.9008750+01:00 0HLIFNHKSV3SV:00000002 [INF] Route matched with "{action = \"Create\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" (a44c0341)
+2018-11-21T15:20:11.9295910+01:00 0HLIFNHKSV3SV:00000002 [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:20:11.9329460+01:00 0HLIFNHKSV3SV:00000002 [INF] Executed action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" in 31.9711ms (afa2e885)
+2018-11-21T15:20:11.9474360+01:00 0HLIFNHKSV3SV:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Eventures.Web.Controllers.EventsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Eventures.Web.Middlewares.SeedRolesMiddleware.InvokeAsync(HttpContext context, IServiceProvider serviceProvider, UserManager`1 userManager, RoleManager`1 roleManager) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Middlewares/SeedRolesMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-11-21T15:20:12.0708770+01:00 0HLIFNHKSV3SV:00000002 [INF] Request finished in 215.7874ms 500 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:21:33.2757890+01:00 0HLIFNIHFK51P:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-11-21T15:21:34.0710460+01:00 0HLIFNIHFK51P:00000001 [WRN] No type was specified for the decimal column '"PricePerTicket"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-11-21T15:21:34.1918270+01:00 0HLIFNIHFK51P:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:21:34.7008780+01:00 0HLIFNIHFK51P:00000001 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:21:35.1119600+01:00 0HLIFNIHFK51P:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-21T15:21:35.1428500+01:00 0HLIFNIHFK51P:00000001 [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:21:35.1769500+01:00 0HLIFNIHFK51P:00000001 [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.2749ms. (50a9e262)
+2018-11-21T15:21:39.6515570+01:00 0HLIFNIHFK51P:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-21T15:21:41.2453210+01:00 0HLIFNIHFK51O:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:21:41.2482070+01:00 0HLIFNIHFK51O:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:21:41.2644810+01:00 0HLIFNIHFK51O:00000001 [INF] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:21:41.3191480+01:00 0HLIFNIHFK51O:00000001 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:21:41.3296440+01:00 0HLIFNIHFK51O:00000001 [INF] Request finished in 84.1716ms 200 text/css (791a596a)
+2018-11-21T15:21:41.3301530+01:00 0HLIFNIHFK51O:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:21:41.3308890+01:00 0HLIFNIHFK51O:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:21:41.3337690+01:00 0HLIFNIHFK51O:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:21:41.3359050+01:00 0HLIFNIHFK51Q:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:21:41.3365190+01:00 0HLIFNIHFK51Q:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:21:41.3395030+01:00 0HLIFNIHFK51Q:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:21:41.3405790+01:00 0HLIFNIHFK51Q:00000001 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:21:41.3410530+01:00 0HLIFNIHFK51Q:00000001 [INF] Request finished in 5.1641ms 200 text/css (791a596a)
+2018-11-21T15:21:41.4190270+01:00 0HLIFNIHFK51P:00000001 [INF] Executed ViewResult - view "Index" executed in 6007.0587ms. (f66409e9)
+2018-11-21T15:21:41.4195210+01:00 0HLIFNIHFK51P:00000001 [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 6306.6557ms (afa2e885)
+2018-11-21T15:21:41.4318390+01:00 0HLIFNIHFK51P:00000001 [INF] Request finished in 8163.695ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:21:41.4713300+01:00 0HLIFNIHFK51O:00000002 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:21:41.4714490+01:00 0HLIFNIHFK51O:00000002 [INF] Request finished in 141.3302ms 200 text/css (791a596a)
+2018-11-21T15:21:46.7833400+01:00 0HLIFNIHFK51O:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Events/Create   (ca22a1cb)
+2018-11-21T15:21:46.7843230+01:00 0HLIFNIHFK51O:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:21:46.8366310+01:00 0HLIFNIHFK51O:00000003 [INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:21:46.8506650+01:00 0HLIFNIHFK51O:00000003 [INF] Route matched with "{action = \"Create\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" (a44c0341)
+2018-11-21T15:21:46.8897690+01:00 0HLIFNIHFK51O:00000003 [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:21:46.8975090+01:00 0HLIFNIHFK51O:00000003 [INF] Executing action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:21:46.8981150+01:00 0HLIFNIHFK51O:00000003 [INF] Executed action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.3832ms. (50a9e262)
+2018-11-21T15:21:47.6808180+01:00 0HLIFNIHFK51O:00000003 [INF] Executing ViewResult, running view "Create". (c83d0e25)
+2018-11-21T15:21:47.9549400+01:00 0HLIFNIHFK51O:00000003 [INF] Executed ViewResult - view "Create" executed in 1055.923ms. (f66409e9)
+2018-11-21T15:21:47.9558270+01:00 0HLIFNIHFK51O:00000003 [INF] Executed action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" in 1104.8357ms (afa2e885)
+2018-11-21T15:21:47.9562190+01:00 0HLIFNIHFK51O:00000003 [INF] Request finished in 1173.1983ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:21:48.0243740+01:00 0HLIFNIHFK51O:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:21:48.0250170+01:00 0HLIFNIHFK51O:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:21:48.0268650+01:00 0HLIFNIHFK51Q:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:21:48.0276240+01:00 0HLIFNIHFK51Q:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:21:48.0360170+01:00 0HLIFNIHFK51P:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:21:48.0365790+01:00 0HLIFNIHFK51P:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:21:48.0392690+01:00 0HLIFNIHFK51O:00000004 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:21:48.0400560+01:00 0HLIFNIHFK51O:00000004 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:21:48.0401520+01:00 0HLIFNIHFK51O:00000004 [INF] Request finished in 15.8303ms 200 text/css (791a596a)
+2018-11-21T15:21:48.0585730+01:00 0HLIFNIHFK51P:00000002 [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:21:48.0628770+01:00 0HLIFNIHFK51P:00000002 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:21:48.0630010+01:00 0HLIFNIHFK51P:00000002 [INF] Request finished in 27.021ms 200 text/css (791a596a)
+2018-11-21T15:21:48.3021200+01:00 0HLIFNIHFK51Q:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:21:48.3027600+01:00 0HLIFNIHFK51Q:00000002 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:21:48.3028770+01:00 0HLIFNIHFK51Q:00000002 [INF] Request finished in 276.0497ms 200 text/css (791a596a)
+2018-11-21T15:22:51.1783300+01:00 0HLIFNIHFK51Q:00000003 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Events/Create application/x-www-form-urlencoded 346 (ca22a1cb)
+2018-11-21T15:22:51.1789760+01:00 0HLIFNIHFK51Q:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:22:51.1824830+01:00 0HLIFNIHFK51Q:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:22:51.2230540+01:00 0HLIFNIHFK51Q:00000003 [INF] Route matched with "{action = \"Create\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" (a44c0341)
+2018-11-21T15:22:51.2250700+01:00 0HLIFNIHFK51Q:00000003 [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:22:51.3895840+01:00 0HLIFNIHFK51Q:00000003 [INF] Executing action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" with arguments (["Eventures.Web.ViewModels.Events.CreateEventViewModel"]) - Validation state: Valid (4e3479ed)
+2018-11-21T15:22:51.7333900+01:00 0HLIFNIHFK51Q:00000003 [ERR] Failed executing DbCommand ("80"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Decimal), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Events] ([Id], [End], [Name], [Place], [PricePerTicket], [Start], [TotalTickets])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Events'. Cannot insert duplicate key in object 'dbo.Events'. The duplicate key value is (00000000-0000-0000-0000-000000000000).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+ClientConnectionId:d229790c-addb-4e87-b143-1c336fec2579
+Error Number:2627,State:1,Class:14
+2018-11-21T15:22:51.7568240+01:00 0HLIFNIHFK51Q:00000003 [ERR] An exception occurred in the database while saving changes for context type '"Eventures.Data.EventuresDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Events'. Cannot insert duplicate key in object 'dbo.Events'. The duplicate key value is (00000000-0000-0000-0000-000000000000).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Events'. Cannot insert duplicate key in object 'dbo.Events'. The duplicate key value is (00000000-0000-0000-0000-000000000000).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Eventures.Services.EventsService.CreateEvent(String name, String place, DateTime start, DateTime end, Int32 totalTickets, Decimal pricePerTicket) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures.Services/EventsService.cs:line 34
+   at Eventures.Web.Controllers.EventsController.Create(CreateEventViewModel model) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Controllers/EventsController.cs:line 55
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Eventures.Web.Middlewares.SeedRolesMiddleware.InvokeAsync(HttpContext context, IServiceProvider serviceProvider, UserManager`1 userManager, RoleManager`1 roleManager) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Middlewares/SeedRolesMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-11-21T15:22:51.7595410+01:00 0HLIFNIHFK51Q:00000003 [INF] [11/21/2018 14:22:51] Administrator admin create event Hip Hop Night (11/23/2018 23:30:00 / 11/24/2018 05:00:00). (e89f9d3f)
+2018-11-21T15:22:51.7601840+01:00 0HLIFNIHFK51Q:00000003 [INF] Executed action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" in 536.9995ms (afa2e885)
+2018-11-21T15:22:51.7749890+01:00 0HLIFNIHFK51Q:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Events'. Cannot insert duplicate key in object 'dbo.Events'. The duplicate key value is (00000000-0000-0000-0000-000000000000).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Eventures.Services.EventsService.CreateEvent(String name, String place, DateTime start, DateTime end, Int32 totalTickets, Decimal pricePerTicket) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures.Services/EventsService.cs:line 34
+   at Eventures.Web.Controllers.EventsController.Create(CreateEventViewModel model) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Controllers/EventsController.cs:line 55
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Eventures.Web.Middlewares.SeedRolesMiddleware.InvokeAsync(HttpContext context, IServiceProvider serviceProvider, UserManager`1 userManager, RoleManager`1 roleManager) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Middlewares/SeedRolesMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-11-21T15:22:51.9201130+01:00 0HLIFNIHFK51Q:00000003 [INF] Request finished in 741.8268ms 500 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:23:27.9637690+01:00 0HLIFNIHFK51Q:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Events/Create   (ca22a1cb)
+2018-11-21T15:23:27.9653870+01:00 0HLIFNIHFK51Q:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:23:27.9788330+01:00 0HLIFNIHFK51Q:00000004 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:23:27.9832850+01:00 0HLIFNIHFK51Q:00000004 [INF] Route matched with "{action = \"Create\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" (a44c0341)
+2018-11-21T15:23:27.9834650+01:00 0HLIFNIHFK51Q:00000004 [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:23:27.9837450+01:00 0HLIFNIHFK51Q:00000004 [INF] Executing action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:23:27.9838920+01:00 0HLIFNIHFK51Q:00000004 [INF] Executed action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0356ms. (50a9e262)
+2018-11-21T15:23:27.9849160+01:00 0HLIFNIHFK51Q:00000004 [INF] Executing ViewResult, running view "Create". (c83d0e25)
+2018-11-21T15:23:28.0201920+01:00 0HLIFNIHFK51Q:00000004 [INF] Executed ViewResult - view "Create" executed in 36.1284ms. (f66409e9)
+2018-11-21T15:23:28.0202850+01:00 0HLIFNIHFK51Q:00000004 [INF] Executed action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" in 36.9325ms (afa2e885)
+2018-11-21T15:23:28.0204530+01:00 0HLIFNIHFK51Q:00000004 [INF] Request finished in 57.5147ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:23:28.1002920+01:00 0HLIFNIHFK51P:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:23:28.1003040+01:00 0HLIFNIHFK51O:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:23:28.1002920+01:00 0HLIFNIHFK51Q:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:23:28.1011270+01:00 0HLIFNIHFK51P:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:23:28.1011500+01:00 0HLIFNIHFK51O:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:23:28.1012890+01:00 0HLIFNIHFK51Q:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:23:28.1444190+01:00 0HLIFNIHFK51O:00000005 [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:23:28.1444230+01:00 0HLIFNIHFK51Q:00000005 [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:23:28.1462830+01:00 0HLIFNIHFK51Q:00000005 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:23:28.1464670+01:00 0HLIFNIHFK51Q:00000005 [INF] Request finished in 46.1799ms 200 text/css (791a596a)
+2018-11-21T15:23:28.1495710+01:00 0HLIFNIHFK51O:00000005 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:23:28.1498900+01:00 0HLIFNIHFK51O:00000005 [INF] Request finished in 49.4343ms 200 text/css (791a596a)
+2018-11-21T15:23:28.3655400+01:00 0HLIFNIHFK51P:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:23:28.3665820+01:00 0HLIFNIHFK51P:00000003 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:23:28.3666920+01:00 0HLIFNIHFK51P:00000003 [INF] Request finished in 266.4196ms 200 text/css (791a596a)
+2018-11-21T15:23:39.2585730+01:00 0HLIFNIHFK51P:00000004 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Events/Create application/x-www-form-urlencoded 346 (ca22a1cb)
+2018-11-21T15:23:39.2591640+01:00 0HLIFNIHFK51P:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:23:39.2630910+01:00 0HLIFNIHFK51P:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:23:39.2638610+01:00 0HLIFNIHFK51P:00000004 [INF] Route matched with "{action = \"Create\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" (a44c0341)
+2018-11-21T15:23:39.2639730+01:00 0HLIFNIHFK51P:00000004 [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:23:39.2684210+01:00 0HLIFNIHFK51P:00000004 [INF] Executing action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" with arguments (["Eventures.Web.ViewModels.Events.CreateEventViewModel"]) - Validation state: Valid (4e3479ed)
+2018-11-21T15:23:39.2928820+01:00 0HLIFNIHFK51P:00000004 [ERR] Failed executing DbCommand ("14"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Decimal), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Events] ([Id], [End], [Name], [Place], [PricePerTicket], [Start], [TotalTickets])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Events'. Cannot insert duplicate key in object 'dbo.Events'. The duplicate key value is (00000000-0000-0000-0000-000000000000).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:37f2875b-4a04-422d-9dd4-4448209712c7
+Error Number:2627,State:1,Class:14
+2018-11-21T15:23:39.3012270+01:00 0HLIFNIHFK51P:00000004 [ERR] An exception occurred in the database while saving changes for context type '"Eventures.Data.EventuresDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Events'. Cannot insert duplicate key in object 'dbo.Events'. The duplicate key value is (00000000-0000-0000-0000-000000000000).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Events'. Cannot insert duplicate key in object 'dbo.Events'. The duplicate key value is (00000000-0000-0000-0000-000000000000).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Eventures.Services.EventsService.CreateEvent(String name, String place, DateTime start, DateTime end, Int32 totalTickets, Decimal pricePerTicket) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures.Services/EventsService.cs:line 34
+   at Eventures.Web.Controllers.EventsController.Create(CreateEventViewModel model) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Controllers/EventsController.cs:line 55
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Eventures.Web.Middlewares.SeedRolesMiddleware.InvokeAsync(HttpContext context, IServiceProvider serviceProvider, UserManager`1 userManager, RoleManager`1 roleManager) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Middlewares/SeedRolesMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-11-21T15:23:39.3020910+01:00 0HLIFNIHFK51P:00000004 [INF] [11/21/2018 14:23:39] Administrator admin create event Hip Hop Night (11/23/2018 22:30:00 / 11/24/2018 05:00:00). (3544aa35)
+2018-11-21T15:23:39.3030620+01:00 0HLIFNIHFK51P:00000004 [INF] Executed action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" in 39.0702ms (afa2e885)
+2018-11-21T15:23:39.3077210+01:00 0HLIFNIHFK51P:00000004 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Events'. Cannot insert duplicate key in object 'dbo.Events'. The duplicate key value is (00000000-0000-0000-0000-000000000000).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Eventures.Services.EventsService.CreateEvent(String name, String place, DateTime start, DateTime end, Int32 totalTickets, Decimal pricePerTicket) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures.Services/EventsService.cs:line 34
+   at Eventures.Web.Controllers.EventsController.Create(CreateEventViewModel model) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Controllers/EventsController.cs:line 55
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Eventures.Web.Middlewares.SeedRolesMiddleware.InvokeAsync(HttpContext context, IServiceProvider serviceProvider, UserManager`1 userManager, RoleManager`1 roleManager) in /Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/Middlewares/SeedRolesMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-11-21T15:23:39.3418790+01:00 0HLIFNIHFK51P:00000004 [INF] Request finished in 83.485ms 500 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:23:39.5188030+01:00 0HLIFNIHFK51P:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/robots.txt   (ca22a1cb)
+2018-11-21T15:23:39.5195000+01:00 0HLIFNIHFK51P:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:23:39.5219260+01:00 0HLIFNIHFK51P:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:23:39.5256050+01:00 0HLIFNIHFK51P:00000005 [INF] Request finished in 6.7776ms 404  (791a596a)
+2018-11-21T15:26:52.3831790+01:00 0HLIFNLGG4T79:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/   (ca22a1cb)
+2018-11-21T15:26:55.0628410+01:00 0HLIFNLGG4T79:00000001 [WRN] No type was specified for the decimal column '"PricePerTicket"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-11-21T15:26:55.3186240+01:00 0HLIFNLGG4T79:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:26:56.4922190+01:00 0HLIFNLGG4T79:00000001 [INF] Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:26:57.5235040+01:00 0HLIFNLGG4T79:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-21T15:26:57.6101130+01:00 0HLIFNLGG4T79:00000001 [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:26:57.6966650+01:00 0HLIFNLGG4T79:00000001 [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 2.0044ms. (50a9e262)
+2018-11-21T15:27:05.5085440+01:00 0HLIFNLGG4T79:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-21T15:27:08.0539910+01:00 0HLIFNLGG4T7B:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:27:08.0540620+01:00 0HLIFNLGG4T79:00000001 [INF] Executed ViewResult - view "Index" executed in 10100.546ms. (f66409e9)
+2018-11-21T15:27:08.0546260+01:00 0HLIFNLGG4T79:00000001 [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 10529.579ms (afa2e885)
+2018-11-21T15:27:08.0599400+01:00 0HLIFNLGG4T7B:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:27:08.0599450+01:00 0HLIFNLGG4T7A:00000001 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:27:08.0620800+01:00 0HLIFNLGG4T7A:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:27:08.0706210+01:00 0HLIFNLGG4T7B:00000001 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:27:08.1122200+01:00 0HLIFNLGG4T7B:00000001 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:27:08.1478830+01:00 0HLIFNLGG4T7B:00000001 [INF] Request finished in 93.4318ms 200 text/css (791a596a)
+2018-11-21T15:27:08.1684320+01:00 0HLIFNLGG4T7B:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:27:08.1693070+01:00 0HLIFNLGG4T7B:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:27:08.1936850+01:00 0HLIFNLGG4T79:00000001 [INF] Request finished in 15819.1854ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:27:08.2359550+01:00 0HLIFNLGG4T7B:00000002 [INF] Executed DbCommand ("66"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:27:08.2605300+01:00 0HLIFNLGG4T7B:00000002 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:27:08.2618840+01:00 0HLIFNLGG4T7B:00000002 [INF] Request finished in 93.392ms 200 text/css (791a596a)
+2018-11-21T15:27:08.6129180+01:00 0HLIFNLGG4T7A:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:27:08.6681320+01:00 0HLIFNLGG4T7A:00000001 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:27:08.6682680+01:00 0HLIFNLGG4T7A:00000001 [INF] Request finished in 608.3406ms 200 text/css (791a596a)
+2018-11-21T15:27:22.3038850+01:00 0HLIFNLGG4T7A:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Events/Create   (ca22a1cb)
+2018-11-21T15:27:22.3052170+01:00 0HLIFNLGG4T7A:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:27:22.3162240+01:00 0HLIFNLGG4T7A:00000002 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:27:22.3463680+01:00 0HLIFNLGG4T7A:00000002 [INF] Route matched with "{action = \"Create\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" (a44c0341)
+2018-11-21T15:27:22.3900700+01:00 0HLIFNLGG4T7A:00000002 [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:27:22.3916530+01:00 0HLIFNLGG4T7A:00000002 [INF] Executing action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:27:22.3923130+01:00 0HLIFNLGG4T7A:00000002 [INF] Executed action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.326ms. (50a9e262)
+2018-11-21T15:27:23.0367690+01:00 0HLIFNLGG4T7A:00000002 [INF] Executing ViewResult, running view "Create". (c83d0e25)
+2018-11-21T15:27:23.4160440+01:00 0HLIFNLGG4T7A:00000002 [INF] Executed ViewResult - view "Create" executed in 1019.7566ms. (f66409e9)
+2018-11-21T15:27:23.4178520+01:00 0HLIFNLGG4T7A:00000002 [INF] Executed action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" in 1071.3138ms (afa2e885)
+2018-11-21T15:27:23.4895200+01:00 0HLIFNLGG4T7B:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:27:23.4896740+01:00 0HLIFNLGG4T79:00000002 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:27:23.4900880+01:00 0HLIFNLGG4T7B:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:27:23.4908680+01:00 0HLIFNLGG4T79:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:27:23.5327410+01:00 0HLIFNLGG4T79:00000002 [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:27:23.5335030+01:00 0HLIFNLGG4T79:00000002 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:27:23.5336010+01:00 0HLIFNLGG4T79:00000002 [INF] Request finished in 43.9296ms 200 text/css (791a596a)
+2018-11-21T15:27:23.5378780+01:00 0HLIFNLGG4T7B:00000003 [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:27:23.5414660+01:00 0HLIFNLGG4T7B:00000003 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:27:23.5415860+01:00 0HLIFNLGG4T7B:00000003 [INF] Request finished in 52.1147ms 200 text/css (791a596a)
+2018-11-21T15:27:23.5683740+01:00 0HLIFNLGG4T7A:00000002 [INF] Request finished in 1252.3521ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:27:23.5945320+01:00 0HLIFNLGG4T7A:00000003 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:27:23.5996070+01:00 0HLIFNLGG4T7A:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:27:23.6166550+01:00 0HLIFNLGG4T7A:00000003 [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:27:23.6173970+01:00 0HLIFNLGG4T7A:00000003 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:27:23.6177060+01:00 0HLIFNLGG4T7A:00000003 [INF] Request finished in 23.0095ms 200 text/css (791a596a)
+2018-11-21T15:28:21.2127620+01:00 0HLIFNLGG4T7A:00000004 [INF] Request starting HTTP/1.1 POST https://localhost:5001/Events/Create application/x-www-form-urlencoded 357 (ca22a1cb)
+2018-11-21T15:28:21.2135980+01:00 0HLIFNLGG4T7A:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:28:21.2247870+01:00 0HLIFNLGG4T7A:00000004 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:28:21.2595210+01:00 0HLIFNLGG4T7A:00000004 [INF] Route matched with "{action = \"Create\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" (a44c0341)
+2018-11-21T15:28:21.2602680+01:00 0HLIFNLGG4T7A:00000004 [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:28:21.4096870+01:00 0HLIFNLGG4T7A:00000004 [INF] Executing action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" with arguments (["Eventures.Web.ViewModels.Events.CreateEventViewModel"]) - Validation state: Valid (4e3479ed)
+2018-11-21T15:28:21.7077420+01:00 0HLIFNLGG4T7A:00000004 [INF] Executed DbCommand ("40"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Decimal), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Events] ([Id], [End], [Name], [Place], [PricePerTicket], [Start], [TotalTickets])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2018-11-21T15:28:21.7281000+01:00 0HLIFNLGG4T7A:00000004 [INF] Event created: Dancehall Night Vol. 2 (895e5733)
+2018-11-21T15:28:21.7294620+01:00 0HLIFNLGG4T7A:00000004 [INF] Executed action method "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 319.6013ms. (50a9e262)
+2018-11-21T15:28:21.7313930+01:00 0HLIFNLGG4T7A:00000004 [INF] [11/21/2018 14:28:21] Administrator admin create event Dancehall Night Vol. 2 (11/30/2018 23:00:00 / 12/01/2018 05:00:00). (fb59a66b)
+2018-11-21T15:28:21.7396140+01:00 0HLIFNLGG4T7A:00000004 [INF] Executing RedirectResult, redirecting to "/Events/All". (d98d540e)
+2018-11-21T15:28:21.7400270+01:00 0HLIFNLGG4T7A:00000004 [INF] Executed action "Eventures.Web.Controllers.EventsController.Create (Eventures.Web)" in 480.4056ms (afa2e885)
+2018-11-21T15:28:21.7429040+01:00 0HLIFNLGG4T7A:00000004 [INF] Request finished in 530.1573ms 302  (791a596a)
+2018-11-21T15:28:21.8047200+01:00 0HLIFNLGG4T7A:00000005 [INF] Request starting HTTP/1.1 GET https://localhost:5001/Events/All   (ca22a1cb)
+2018-11-21T15:28:21.8054370+01:00 0HLIFNLGG4T7A:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:28:21.8089710+01:00 0HLIFNLGG4T7A:00000005 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:28:21.8118800+01:00 0HLIFNLGG4T7A:00000005 [INF] Route matched with "{action = \"All\", controller = \"Events\", page = \"\", area = \"\"}". Executing action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" (a44c0341)
+2018-11-21T15:28:21.8129890+01:00 0HLIFNLGG4T7A:00000005 [INF] Authorization was successful. (0d575a54)
+2018-11-21T15:28:21.8133430+01:00 0HLIFNLGG4T7A:00000005 [INF] Executing action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-21T15:28:21.8404760+01:00 0HLIFNLGG4T7A:00000005 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[End], [e].[Name], [e].[Place], [e].[PricePerTicket], [e].[Start], [e].[TotalTickets]
+FROM [Events] AS [e]" (0723d8ff)
+2018-11-21T15:28:21.9617980+01:00 0HLIFNLGG4T7A:00000005 [INF] Executed action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 148.3379ms. (50a9e262)
+2018-11-21T15:28:22.6257900+01:00 0HLIFNLGG4T7A:00000005 [INF] Executing ViewResult, running view "All". (c83d0e25)
+2018-11-21T15:28:22.6559540+01:00 0HLIFNLGG4T7A:00000005 [INF] Executed ViewResult - view "All" executed in 694.0208ms. (f66409e9)
+2018-11-21T15:28:22.6560320+01:00 0HLIFNLGG4T7A:00000005 [INF] Executed action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" in 844.0491ms (afa2e885)
+2018-11-21T15:28:22.6561640+01:00 0HLIFNLGG4T7A:00000005 [INF] Request finished in 851.5295ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-21T15:28:22.6954140+01:00 0HLIFNLGG4T7A:00000006 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/reset-css.css   (ca22a1cb)
+2018-11-21T15:28:22.6960490+01:00 0HLIFNLGG4T7A:00000006 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:28:22.6986300+01:00 0HLIFNLGG4T7A:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:28:22.6998470+01:00 0HLIFNLGG4T7A:00000006 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/reset-css.css"' (27b0a520)
+2018-11-21T15:28:22.6999540+01:00 0HLIFNLGG4T7A:00000006 [INF] Request finished in 4.5823ms 200 text/css (791a596a)
+2018-11-21T15:28:22.7109700+01:00 0HLIFNLGG4T7A:00000007 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/bootstrap.min.css   (ca22a1cb)
+2018-11-21T15:28:22.7115550+01:00 0HLIFNLGG4T7A:00000007 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:28:22.7134880+01:00 0HLIFNLGG4T7B:00000004 [INF] Request starting HTTP/1.1 GET https://localhost:5001/css/style.css   (ca22a1cb)
+2018-11-21T15:28:22.7142890+01:00 0HLIFNLGG4T7B:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-11-21T15:28:22.7147660+01:00 0HLIFNLGG4T7A:00000007 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:28:22.7168790+01:00 0HLIFNLGG4T7B:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]" (0723d8ff)
+2018-11-21T15:28:22.7178570+01:00 0HLIFNLGG4T7B:00000004 [INF] Sending file. Request path: '"/css/style.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/style.css"' (27b0a520)
+2018-11-21T15:28:22.7179950+01:00 0HLIFNLGG4T7B:00000004 [INF] Request finished in 4.6464ms 200 text/css (791a596a)
+2018-11-21T15:28:22.7191220+01:00 0HLIFNLGG4T7A:00000007 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"/Users/jolitaarnaudova/Documents/Programming/C#/C# Web Development/C#-Asp.Net-Core/03. Middleware And Filters/Eventures/wwwroot/css/bootstrap.min.css"' (27b0a520)
+2018-11-21T15:28:22.7192670+01:00 0HLIFNLGG4T7A:00000007 [INF] Request finished in 8.4371ms 200 text/css (791a596a)
