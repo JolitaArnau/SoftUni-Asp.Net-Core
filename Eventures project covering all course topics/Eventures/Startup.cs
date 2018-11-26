@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Eventures.Services.Contracts.Orders;
 using Eventures.Web.Filters;
 using Microsoft.Extensions.Logging;
 
@@ -29,23 +30,21 @@ namespace Eventures.Web
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<CookiePolicyOptions>(options =>
             {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
             // db services
-
             services.AddDbContext<EventuresDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddTransient<IEventsService, EventsService>();
             services.AddTransient<IAccountService, AccountService>();
+            services.AddTransient<IOrdersService, OrdersService>();
 
 
             // auto mapper config

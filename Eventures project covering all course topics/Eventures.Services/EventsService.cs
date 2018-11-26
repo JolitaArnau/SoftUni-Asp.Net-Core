@@ -38,5 +38,12 @@ namespace Eventures.Services
         {
             return this.dbContext.Events.ToArray();
         }
+
+        public Event GetEventById(string id)
+        {
+            var @event = this.dbContext.Events.Find(id);
+
+            return @event;
+        }
     }
 }

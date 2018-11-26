@@ -21,9 +21,23 @@
                 @if (User.IsInRole("Admin"))
                 {
                     <a class="dropdown-item" asp-controller="Events" asp-action="Create">Create Event</a>
-
                 }
             </div>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" asp-controller="Events" asp-action="All">My Events</a>
+            </div>
+            @if (User.IsInRole("Admin"))
+            {
+                <div class="collapse navbar-collapse d-flex justify-content-between dropdown font-weight-bold">
+                    <a class="navbar-brand dropdown-toggle nav-link bg-info" data-toggle="dropdown">
+                        Orders
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a asp-controller="Events" asp-action="AllOrders" class="dropdown-item">All Orders</a>
+                    </div>
+                </div>
+            }
+
         </div>
 
         <ul class="navbar-nav left-side">

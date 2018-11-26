@@ -9,5 +9,7 @@ namespace Eventures.Services.Contracts.Events
             decimal pricePerTicket);
 
         Event[] GetAllEvents();
+
+        Event GetEventById(string id);
     }
 }
