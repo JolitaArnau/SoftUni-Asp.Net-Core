@@ -34,6 +34,8 @@ namespace Eventures.Services
                 TicketsCount = ticketsCount
             };
 
+            @event.TotalTickets -= ticketsCount;
+            
             dbContext.Orders.Add(order);
             this.dbContext.SaveChanges();
         }

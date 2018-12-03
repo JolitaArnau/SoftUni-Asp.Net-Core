@@ -11,5 +11,7 @@ namespace Eventures.Services.Contracts.Events
         Event[] GetAllEvents();
 
         Event GetEventById(string id);
+        
+        int GetTotalTicketsByEvent(string id);
     }
 }

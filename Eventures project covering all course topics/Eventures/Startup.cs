@@ -78,8 +78,8 @@ namespace Eventures.Web
             services.AddAuthentication()
                 .AddFacebook(facebookOptions =>
                 {
-                    facebookOptions.AppId = "205884483687010";
-                    facebookOptions.AppSecret = "1cea8f93f8ff99a6c757d6f22f3dc66b";                 
+                    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];  
+                    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];  
                 });
         }
 

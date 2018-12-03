@@ -45,5 +45,13 @@ namespace Eventures.Services
 
             return @event;
         }
+        
+        public int GetTotalTicketsByEvent(string id)
+        {
+            var @event = this.dbContext
+                .Events
+                .FirstOrDefault(e => e.Id == id);
+            return @event.TotalTickets;
+        }
     }
 }
