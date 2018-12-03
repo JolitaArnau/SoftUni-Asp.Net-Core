@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Eventures.Services.Contracts.Orders;
 using Eventures.Web.Filters;
+using Microsoft.AspNetCore.Authentication.Facebook;
 using Microsoft.Extensions.Logging;
 
 namespace Eventures.Web
@@ -68,10 +69,18 @@ namespace Eventures.Web
                 .AddDefaultUI()
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<EventuresDbContext>();
-            
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            
+
             services.AddScoped<EventsLogFilter>();
+
+            // Facebook authentication
+            services.AddAuthentication()
+                .AddFacebook(facebookOptions =>
+                {
+                    facebookOptions.AppId = "205884483687010";
+                    facebookOptions.AppSecret = "1cea8f93f8ff99a6c757d6f22f3dc66b";                 
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
